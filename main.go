@@ -50,9 +50,9 @@ func main() {
 		fmt.Println("No messages received")
 	}
 
-	whatWasSaud := saySomething()
-	fmt.Println("The function returned", whatWasSaud)
+	whatWasSaud, theOtherThing := saySomething()
+	fmt.Println("The function returned", whatWasSaud, theOtherThing)
 }
-func saySomething() string {
-	return "ALMOST NOTHING"
+func saySomething() (string, string) {
+	return "ALMOST NOTHING", "else"
 }
