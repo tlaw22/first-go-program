@@ -1,3 +1,4 @@
+// Run on replit https://replit.com/@TimLawless/My-First-Attempt-At-GoLang
 package main
 
 import (
